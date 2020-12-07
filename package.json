@@ -1,0 +1,33 @@
+{
+  "name": "svelte-3-up-and-running",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack serve --content-base public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edward-hong/svelte-3-up-and-running.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edward-hong/svelte-3-up-and-running/issues"
+  },
+  "homepage": "https://github.com/edward-hong/svelte-3-up-and-running#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "dotenv-webpack": "^6.0.0",
+    "mini-css-extract-plugin": "^1.3.2",
+    "style-loader": "^2.0.0",
+    "svelte": "^3.31.0",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
