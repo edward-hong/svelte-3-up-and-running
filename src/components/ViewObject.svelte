@@ -1,9 +1,9 @@
 <script>
   import { fade } from 'svelte/transition'
   import Obj from './Obj.svelte'
-  export let objectId = null
+  export let params = {}
 </script>
 
 <div in:fade>
-  <Obj {objectId} />
+  <Obj objectId={params.objectId} />
 </div>
