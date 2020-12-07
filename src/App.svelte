@@ -1,12 +1,5 @@
 <script>
-  export let name = ''
+  import ViewAdd from './components/ViewAdd.svelte'
 </script>
 
-<style>
-  p {
-    color: #1d4585;
-  }
-</style>
-
-<h1>Hello {name}!</h1>
-<p>My First Svelte App</p>
+<ViewAdd />

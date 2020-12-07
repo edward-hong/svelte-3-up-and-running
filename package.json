@@ -29,5 +29,10 @@
     "webpack": "^5.10.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "idtoken-verifier": "^2.1.0",
+    "markdown-it": "^12.0.2",
+    "svelte-calendar": "^1.5.0"
   }
 }
